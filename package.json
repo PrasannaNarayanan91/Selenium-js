@@ -1,0 +1,26 @@
+{
+  "name": "selenium",
+  "version": "1.0.0",
+  "description": "selenium-js",
+  "scripts": {
+    "st": "NODE_ENV=local ./node_modules/@cucumber/cucumber/bin/cucumber-js --tags=$TAG ./test/features/*.feature -r ./test/step-definitions/ -f json:./test/output/report/cucumber-json-report.json",
+    "sit": "NODE_ENV=sit ./node_modules/@cucumber/cucumber/bin/cucumber-js --tags=$TAG ./test/features/*.feature -r ./test/step-definitions/ -f json:./test/output/report/cucumber-json-report.json"
+  },
+  "keywords": [
+    "selenium",
+    "javaScript"
+  ],
+  "author": "Prasanna Narayanan",
+  "license": "ISC",
+  "dependencies": {
+    "chai": "^4.3.4",
+    "cucumber-html-reporter": "^5.4.0",
+    "file-system": "^2.2.2",
+    "konfig": "^0.2.1",
+    "moment": "^2.29.1",
+    "selenium-webdriver": "^4.0.0-beta.3"
+  },
+  "devDependencies": {
+    "@cucumber/cucumber": "^7.2.1"
+  }
+}
