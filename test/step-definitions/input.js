@@ -1,4 +1,4 @@
-let { Given, Then, When } = require('@cucumber/cucumber');
+let { Given, Then, When } = require('@cucumber/cucumber')
 
 Then('Enter {string} in {string} field', async (value, fieldName) => {
     await driver.findElement({ id: `${fieldName.toLowerCase()}` }).sendKeys(value)

@@ -1,4 +1,4 @@
-let { Given, Then, When, And } = require('@cucumber/cucumber');
+let { Given, Then, When, And } = require('@cucumber/cucumber')
 
 Given('Validated application launch', async () => {
   expect(await driver.getTitle()).to.equal('Jupiter Toys')
