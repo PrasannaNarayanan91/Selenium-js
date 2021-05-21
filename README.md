@@ -18,6 +18,6 @@ Pre-requisit : node js to be installed and NVM should be configured
 > json report will be stored under "output" folder 
 > Screenshot will be taken for the failed scenario and stored under "output" folder
 
-### Note: Still working on the cucumber html report
-
 ### along with the project pushing the debuging settings 
+
+## Test results are attached under "testResults" folder
