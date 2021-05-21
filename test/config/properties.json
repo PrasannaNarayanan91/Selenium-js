@@ -2,11 +2,11 @@
     "default": {
         "baseURL": "https://jupiter.cloud.planittesting.com/#/",
         "pageTimeOut": 20000,
-        "waitTime": 5000
+        "waitTime": 10000
     },
     "sit": {
         "baseURL": "https://jupiter.cloud.planittesting.com/#/",
         "pageTimeOut": 20000,
-        "waitTime": 5000
+        "waitTime": 10000
     }
 }

@@ -1,0 +1,630 @@
+[
+  {
+    "description": "Automating the Test assesment applicaiton",
+    "elements": [
+      {
+        "description": "",
+        "id": "planit-technical-assesment---autoamtion;test-case-1-:-validation-of-contact-form",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Test case 1 : validation of contact form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 4781000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 6,
+            "name": "Validated application launch",
+            "match": {
+              "location": "test/step-definitions/validation.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Click menu \"test\"",
+            "match": {
+              "location": "test/step-definitions/action.js:3"
+            },
+            "result": {
+              "status": "failed",
+              "duration": 24000000,
+              "error_message": "NoSuchElementError: no such element: Unable to locate element: {\"method\":\"link text\",\"selector\":\"test\"}\n  (Session info: chrome=90.0.4430.212)\n    at Object.throwDecodedError (/Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/error.js:517:15)\n    at parseHttpResponse (/Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/http.js:642:13)\n    at Executor.execute (/Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/http.js:568:28)\n    at processTicksAndRejections (internal/process/task_queues.js:95:5)\n    at async thenableWebDriverProxy.execute (/Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/webdriver.js:731:17)\n    at async toWireValue (/Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/webdriver.js:138:15)\n    at async /Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/webdriver.js:188:16\n    at async forEachKey (/Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/webdriver.js:182:9)\n    at async convertKeys (/Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/webdriver.js:187:3)\n    at async thenableWebDriverProxy.execute (/Users/prasannanarayanan/Documents/planit-selenium-js/node_modules/selenium-webdriver/lib/webdriver.js:729:22)\n    at async Object.link (/Users/prasannanarayanan/Documents/planit-selenium-js/test/step-definitions/support/click.js:2:5)\n    at async World.<anonymous> (/Users/prasannanarayanan/Documents/planit-selenium-js/test/step-definitions/action.js:4:5)"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 8,
+            "name": "Wait for page to navigate",
+            "match": {
+              "location": "test/step-definitions/validation.js:20"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "Click button \"Submit\"",
+            "match": {
+              "location": "test/step-definitions/action.js:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "Validate the \"Forename\" field validation error as \"Forename is required\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Validate the \"Email\" field validation error as \"Email is required\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Validate the \"Message\" field validation error as \"Message is required\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:7"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Enter \"Test\" in \"Forename\" field",
+            "match": {
+              "location": "test/step-definitions/input.js:3"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Enter \"test1@test.com\" in \"Email\" field",
+            "match": {
+              "location": "test/step-definitions/input.js:3"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "Enter \"Message\" in \"Message\" field",
+            "match": {
+              "location": "test/step-definitions/input.js:3"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 16,
+            "name": "Validate error message removed for field \"Forename\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 17,
+            "name": "Validate error message removed for field \"Email\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 18,
+            "name": "Validate error message removed for field \"Message\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:11"
+            },
+            "result": {
+              "status": "skipped",
+              "duration": 0
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 215000000
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test1",
+            "line": 4
+          },
+          {
+            "name": "@test",
+            "line": 4
+          },
+          {
+            "name": "@debug",
+            "line": 4
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "planit-technical-assesment---autoamtion;test-case-2-:-submit-contact-form",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Test case 2 : Submit contact form",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 458000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 22,
+            "name": "Validated application launch",
+            "match": {
+              "location": "test/step-definitions/validation.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "Click menu \"Contact\"",
+            "match": {
+              "location": "test/step-definitions/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 130000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 24,
+            "name": "Wait for page to navigate",
+            "match": {
+              "location": "test/step-definitions/validation.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 886000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 25,
+            "name": "Enter \"Test\" in \"Forename\" field",
+            "match": {
+              "location": "test/step-definitions/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 317000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "Enter \"test1@test.com\" in \"Email\" field",
+            "match": {
+              "location": "test/step-definitions/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 188000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "Enter \"Message\" in \"Message\" field",
+            "match": {
+              "location": "test/step-definitions/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "Click button \"Submit\"",
+            "match": {
+              "location": "test/step-definitions/action.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 152000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 29,
+            "name": "Wait for page to navigate",
+            "match": {
+              "location": "test/step-definitions/validation.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 30,
+            "name": "Validate submission successful page",
+            "match": {
+              "location": "test/step-definitions/validation.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2859000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test2",
+            "line": 20
+          },
+          {
+            "name": "@test",
+            "line": 20
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "planit-technical-assesment---autoamtion;test-case-3-:-validation-of-contact-form-by-entering-invalid-data",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Test case 3 : validation of contact form by entering invalid data",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 23000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "Validated application launch",
+            "match": {
+              "location": "test/step-definitions/validation.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 35,
+            "name": "Click menu \"Contact\"",
+            "match": {
+              "location": "test/step-definitions/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 404000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 36,
+            "name": "Wait for page to navigate",
+            "match": {
+              "location": "test/step-definitions/validation.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 38,
+            "name": "Enter \"test\" in \"Email\" field",
+            "match": {
+              "location": "test/step-definitions/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 53000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 39,
+            "name": "Enter \"Telephone\" in \"Telephone\" field",
+            "match": {
+              "location": "test/step-definitions/input.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 40,
+            "name": "Validate the \"Email\" field validation error as \"Please enter a valid email\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 41,
+            "name": "Validate the \"Telephone\" field validation error as \"Please enter a valid telephone number\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test3",
+            "line": 32
+          },
+          {
+            "name": "@test",
+            "line": 32
+          }
+        ],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "planit-technical-assesment---autoamtion;test-case-4-:-shopping-cart",
+        "keyword": "Scenario",
+        "line": 44,
+        "name": "Test case 4 : shopping cart",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 46000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 45,
+            "name": "Validated application launch",
+            "match": {
+              "location": "test/step-definitions/validation.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 46,
+            "name": "Click menu \"Shop\"",
+            "match": {
+              "location": "test/step-definitions/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 47,
+            "name": "Add 2 \"Funny Cow\" to cart",
+            "match": {
+              "location": "test/step-definitions/input.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 287000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 48,
+            "name": "Add 1 \"Fluffy Bunny\" to cart",
+            "match": {
+              "location": "test/step-definitions/input.js:7"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 116000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 49,
+            "name": "Click menu \"Cart (3)\"",
+            "match": {
+              "location": "test/step-definitions/action.js:3"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 88000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 50,
+            "name": "Validate cart list has 2 \"Funny Cow\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 259000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 51,
+            "name": "Validate cart list has 1 \"Fluffy Bunny\"",
+            "match": {
+              "location": "test/step-definitions/validation.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 16000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 0
+            }
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test4",
+            "line": 43
+          },
+          {
+            "name": "@test",
+            "line": 43
+          }
+        ],
+        "type": "scenario"
+      }
+    ],
+    "id": "planit-technical-assesment---autoamtion",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "Planit Technical Assesment - Autoamtion",
+    "tags": [],
+    "uri": "test/features/jupitorToys.feature"
+  }
+]
