@@ -1,4 +1,4 @@
-let { Given, Then, When } = require('@cucumber/cucumber');
+let { Given, Then, When } = require('@cucumber/cucumber')
 
 Then('Click menu {string}', async (option) => {
     await click.link(option)
