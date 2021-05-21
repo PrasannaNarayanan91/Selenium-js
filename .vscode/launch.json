@@ -20,7 +20,7 @@
                 "-r",
                 "./test/step-definitions/",
                 "-f",
-                "json:./test/output/report/cucumber-json-report.json"
+                "json:./output/report/cucumber-json-report.json"
             ]
         },
         {
@@ -37,7 +37,7 @@
                 "-r",
                 "./test/step-definitinos/",
                 "-f",
-                "json:./test/output/report/cucumber-json-report.json"
+                "json:./output/report/cucumber-json-report.json"
             ]
         }
     ]

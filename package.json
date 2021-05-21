@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "selenium-js",
   "scripts": {
-    "st": "NODE_ENV=local ./node_modules/@cucumber/cucumber/bin/cucumber-js --tags=$TAG ./test/features/*.feature -r ./test/step-definitions/ -f json:./test/output/report/cucumber-json-report.json",
-    "sit": "NODE_ENV=sit ./node_modules/@cucumber/cucumber/bin/cucumber-js --tags=$TAG ./test/features/*.feature -r ./test/step-definitions/ -f json:./test/output/report/cucumber-json-report.json"
+    "st": "NODE_ENV=local ./node_modules/@cucumber/cucumber/bin/cucumber-js --tags=$TAG ./test/features/*.feature -r ./test/step-definitions/ -f json:./output/report/cucumber-json-report.json",
+    "sit": "NODE_ENV=sit ./node_modules/@cucumber/cucumber/bin/cucumber-js --tags=$TAG ./test/features/*.feature -r ./test/step-definitions/ -f json:./output/report/cucumber-json-report.json",
+    "report": "node report.js"
   },
   "keywords": [
     "selenium",

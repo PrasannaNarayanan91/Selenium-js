@@ -1,7 +1,7 @@
-// feature under development
+const reporter = require ('cucumber-html-reporter')
 let options = {
     theme: 'bootstrap',
-    jsonDir: './output/report/cucumber-json-report.json',
+    jsonFile: './output/report/cucumber-json-report.json',
     output: './output/report/cucumber-html-report.html',
     reportSuiteAsScenarios: true,
     scenarioTimestamp: true,
@@ -13,3 +13,4 @@ let options = {
 };
 
 reporter.generate(options);
+console.log('Report Generated under report folder.')

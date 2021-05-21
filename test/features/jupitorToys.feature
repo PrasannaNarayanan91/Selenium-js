@@ -1,7 +1,7 @@
 Feature: Planit Technical Assesment - Autoamtion
-    Automating the Test assesment applicaiton
+Automating the Test assesment applicaiton
 
-    @test1 @test
+    @test1 @test @debug
     Scenario: Test case 1 : validation of contact form
         Given Validated application launch
         Then Click menu "Contact"
