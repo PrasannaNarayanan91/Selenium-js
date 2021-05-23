@@ -2,7 +2,7 @@
 > Framework uses the combination of javaScript, Selenium with Cucumber
 
 # Steps to setup framework in mac os
-Pre-requisit : node js to be installed and NVM should be configured
+Pre-requisit : node js to be installed and NVM should be configured ( This project was developed using node v14.17.0)
 
 > Navigate to the project root folder/open the project in any IDE (VS Code)
 > run command in terminal "npm install"
